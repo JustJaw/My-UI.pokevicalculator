@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UI Group Project</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Pokemon IV Calcultor</string>
+    <string name="select">Select a Pokemon</string>
+    <string name="search">Search</string>
+    
+    <string name="title_activity_stats">Stats</string>
+    <string name="name">Name of Pokemon</string>
+    <string name="hp">Stat Here!</string>
+    <string name="attack">Stat Here!</string>
+    <string name="defense">Stat Here!</string>
+    <string name="special_attack">Stat Here!</string>
+    <string name="special_defense">Stat Here!</string>
+    <string name="speed">Stat Here!</string>
+	<string name="calculate">Calculate IVs</string>
+</resources>

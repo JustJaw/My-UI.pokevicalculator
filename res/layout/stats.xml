@@ -1,0 +1,94 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:rowCount="8" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/name"
+        android:textSize="32dip" />
+
+    <TextView android:text="HP" />
+
+    <Button
+        android:id="@+id/hp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="@string/hp"/>
+
+    <TextView
+        android:layout_column="0"
+        android:text="Attack" />
+
+    <Button
+        android:id="@+id/attack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/attack"/> />
+
+    <TextView
+        android:layout_column="0"
+        android:text="Defense" />
+
+    <Button
+        android:id="@+id/defense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="@string/defense"/>/>
+
+    <TextView
+        android:layout_column="0"
+        android:text="Special Attack" />
+
+    <Button
+        android:id="@+id/special_attack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="@string/special_attack"
+         />
+
+    <TextView
+        android:layout_column="0"
+        android:text="Special Defense"/>
+
+    <Button
+        android:id="@+id/special_defense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="@string/special_defense" />
+
+    <TextView
+        android:layout_column="0"
+        android:text="Speed" />
+
+    <Button
+        android:id="@+id/speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="3" 
+        android:text="@string/speed"/>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:layout_columnSpan="3" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="left|bottom"
+        android:layout_row="7"
+        android:text="@string/calculate"/>
+
+</GridLayout>

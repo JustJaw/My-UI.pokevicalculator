@@ -1,0 +1,38 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:columnCount="6"
+    android:rowCount = "4"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:layout_column="0"
+        android:id="@+id/title"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="64dip"
+         />
+
+    <Button
+        android:id="@+id/select"
+        android:layout_width="158dp"
+        android:layout_height="76dp"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_row="1"
+        android:text="@string/select" />
+
+    
+    <Button
+        android:id="@+id/search"
+        android:layout_width="158dp"
+        android:layout_height="76dp"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:text="@string/search" />
+  
+
+</GridLayout>
